@@ -1,0 +1,333 @@
+* {
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 250px) {
+
+    body {
+        background-color: #ebebeb;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* Section Header */
+
+    header {
+        background: #EAC926;
+        width: 100%;
+    }
+
+    .hidden-mob {
+        display: none;
+        visibility: hidden;
+    }
+
+    .logo-bar {
+        display: flex;
+    }
+
+    /* Logo imagen */
+
+    #logo {
+        height: 115px;
+        width: 50%;
+        padding-top: 30px;
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    /* Search Bar */
+
+    header input {
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .search {
+        display: flex;
+        position: relative;
+    }
+
+    .logo-search {
+        height: 50px;
+        width: 8%;
+        vertical-align: bottom;
+        border: none;
+        background-color: #EAC926;
+        fill: #1259c3;
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    /* Text Bar */
+
+    .textbar {
+        display: flex;
+    }
+
+    #logo-bar {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: left;
+        color: black;
+    }
+
+    .logos {
+        height: 14px;
+        width: 15px;
+    }
+
+    /* Site Navbar */
+
+    #site-navbar {
+        display: list-item;
+        justify-content: space-between;
+    }
+
+    #navlist {
+        position: relative;
+        margin-top: 30px;
+        display: flex;
+        gap: 10px;
+        margin-left: 10px;
+    }
+
+    #navlist a {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        display: flex;
+    }
+
+    /* Login Navbar */
+
+    #navlogin {
+        position: relative;
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    #navlogin a {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        display: flex;
+        margin: 0px;
+    }
+
+    .logo-user {
+        height: 14px;
+        width: 15px;
+        margin: 0px;
+        float: right;
+    }
+
+    .userlog {
+        margin: 0px;
+        width: 95px;
+    }
+
+    .userlog2 {
+        margin: 0px;
+        width: 57px;
+    }
+
+    .userlog3 {
+        margin: 0px;
+        width: 87px;
+    }
+
+    /* Burguer Menu */
+
+    .fasfa-bars {
+        width: 50px;
+        height: 50px;
+        background-color: #1259c3;
+        border: 1px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .burger-menu {
+        width: 27px;
+        height: 27px;
+        fill: white;
+    }
+
+    /* Publicidad */
+
+    .add {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    /* Section Main */
+
+    .titulo {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        color: #666;
+    }
+
+    .form {
+        background-color: rgb(216, 216, 216);
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 35px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 30px;
+    }
+
+    form input {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .form-login {
+        display: flex;
+        padding: 10px;
+        border: none;
+        width: 100%;
+    }
+
+    .button-log {
+        padding: 20px;
+        text-align: center;
+        display: flex;
+    }
+
+    .button-log button {
+        background-color: #1259c3;
+        border: none;
+        padding: 15px 100px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .button-log button p {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .signup {
+        text-align: center;
+    }
+
+
+    /* Section Footer */
+
+    footer {
+        width: 100%;
+    }
+
+    /* Descripciones */
+
+    .descripcion {
+        font-size: 12px;
+        text-align: center;
+        color: #666;
+        border-radius: 130px;
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+    .titulo {
+        text-align: center;
+        color: rgb(53, 53, 53);
+    }
+
+    .copyr {
+        font-size: 12px;
+        color: #666;
+        padding-left: 20px;
+        margin-top: 60px;
+    }
+
+    .logo-footer {
+        width: 40px;
+        height: 40px;
+        fill: #1259c3;
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 361px) {
+
+    .hidden-mob {
+        display: block;
+        visibility: visible;
+    }
+
+    .hidden-tablet-pc {
+        display: none;
+    }
+
+    #logo {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .barbar {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .logo-bar-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #site-navbar {
+        display: list-item;
+    }
+
+}
+
+@media screen and (min-width: 540px) {
+    #site-navbar {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 769px) {
+
+    .hidden-tablet-pc {
+        display: none;
+    }
+
+    header input {
+        margin-left: 30px;
+        width: 400px;
+    }
+
+}
