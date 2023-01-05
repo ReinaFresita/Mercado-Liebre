@@ -84,6 +84,8 @@
 
     .logos {
         font-size: 2em;
+        height: 15px;
+        width: 15px;
     }
 
     /* Site Navbar */
@@ -301,6 +303,8 @@
     }
 
     .logo-footer {
+        width: 35px;
+        height: 35px;
         font-size: 2em;
         fill: #1259c3;
         display: flex;
