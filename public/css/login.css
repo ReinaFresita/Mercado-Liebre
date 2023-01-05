@@ -83,8 +83,7 @@
     }
 
     .logos {
-        height: 14px;
-        width: 15px;
+        font-size: 2em;
     }
 
     /* Site Navbar */
@@ -269,8 +268,7 @@
     }
 
     .logo-footer {
-        width: 40px;
-        height: 40px;
+        font-size: 2em;
         fill: #1259c3;
         display: flex;
         margin-top: 100px;
